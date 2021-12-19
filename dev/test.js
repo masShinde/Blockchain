@@ -2,7 +2,6 @@ const Blockchain = require("./blockchain");
 
 const bitcoin = new Blockchain();
 
-
 //***test creating New Block***
 
 // bitcoin.createNewBlock(3000,"KFJDKFSFJFEUFS","FGEFJFWJFKFJEWFKJFW");

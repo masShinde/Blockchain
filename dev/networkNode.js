@@ -44,7 +44,6 @@ app.post("/transaction/broadcast",function(req,res){
 
 
 
-
        requestPromises.push(rp(requestOptions));
     });
     Promise.all(requestPromises).then(function(data){
