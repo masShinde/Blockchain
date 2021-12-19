@@ -42,6 +42,9 @@ app.post("/transaction/broadcast",function(req,res){
             json:true
         }
 
+
+
+
        requestPromises.push(rp(requestOptions));
     });
     Promise.all(requestPromises).then(function(data){
